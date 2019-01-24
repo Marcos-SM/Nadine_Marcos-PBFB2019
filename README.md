@@ -27,6 +27,11 @@ the data).
 * Clean.sh will delete all the files that are created by the program (to be run from the folder where the data is).
 **Do not use this script if there are more files in your folders than only the ab1 files.**
 
+* In *Data_Repository* we provide data as an example to run the program.
+  * Cutting points:
+  * 5' end: TGRAGG
+  * 3' end: GCCCGG
+
 ## Explanation of the script
 
 The script provided is a Python (v. 2.7.15rc1) script that extracts information from ab1 files and converts it to fastq
