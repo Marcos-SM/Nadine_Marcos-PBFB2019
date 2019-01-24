@@ -25,8 +25,9 @@ use as an example for the program.
   * Enter species name separated by "\_":Prueba_prueba
   * Enter region of sequences:Test
 
-  
+
 * It also contains the program scripts and its outputs:
+  * final.fasta: Fasta file with the sequence with the highest mean quality per sample
   * Log.txt: Information of how the program ran
   * Quality.txt: Mean qualities of the analysed files
   * bestqs.txt: Fastq with best mean quality per samples
