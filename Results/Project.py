@@ -256,7 +256,7 @@ if Cutting is 'Y': #Cutting sequences in specific points (also cutting the quali
 
     #This gets a list of the files containing a sequence that couldn't be cut anyway and provides the length of the sequence
     log.write("\nSequence length of files that couldn't be cut:\n\n")
-    print "\nSequence length of files that couldn't be cut:\n"
+    print "\nSequence length of files that couldn't be cut:"
     filerrors = uncomplete + Preverse
     for filename in filerrors:
         with open(filename, "r") as filec:

@@ -1,0 +1,272 @@
+Date and time the script was run: 2019-01-24 17:10:54.261140
+Do you want to extract fastq files from ab1 files 
+(if not the script will work with existing fastq files)?: Y
+Do you want to add the parent directory to the file name?: Y
+Do you want to cut the fastq files?: Y
+Point of cut 5' extreme: TGRAGG
+Point of cut 3' extreme: GCCCGG
+Do you want to get quality information of the fastq files?: Y
+Do you want a Phred threshold value?: Y
+Phred value: 50
+Do you want to create a Fasta file with the best sequence from each sample?: Y
+Enter species name separated by "_":Prueba_prueba
+Enter region of sequences:Test
+
+----------------------
+
+Number of files to be processed:27 and paths to files:
+
+SN000008/SN000008_58627_7.ab1
+SN000008/SN000008_54932_8.ab1
+SN000008/SN000008_5279_1.ab1
+SN000001/SN000001_5879_4.ab1
+SN000001/SN000001_2134_9.ab1
+SN000001/SN000001_8521_7.ab1
+SN000009/SN000009_54892_4.ab1
+SN000002/SN000002_9658_4.ab1
+SN000002/SN000002_9652_6.ab1
+SN000004/SN000004_7895_2.ab1
+SN000004/SN000004_4856_7.ab1
+SN000004/SN000004_9762_9.ab1
+SN000004/SN000004_7421_7.ab1
+SN000006/SN000006_6985_3.ab1
+SN000006/SN000006_89654_1.ab1
+SN000003/SN000003_3257_74.ab1
+SN000003/SN000003_5789_4.ab1
+SN000003/SN000003_5617_2.ab1
+SN000005/SN000005_7896_4.ab1
+SN000005/SN000005_8625_7.ab1
+SN000005/SN000005_8627_8.ab1
+SN000007/SN000007_5984_5.ab1
+SN000007/SN000007_7925_5.ab1
+SN000007/SN000007_7864_25.ab1
+SN000010/SN000010_1234_5.ab1
+SN000010/SN000010_6587_5.ab1
+SN000010/SN000010_8657_7.ab1
+
+---------
+
+Extraction of fastq from ab1 files:
+Converted SN000008/SN000008_58627_7.ab1 to SN000008/SN000008_58627_7.fastq
+Converted SN000008/SN000008_54932_8.ab1 to SN000008/SN000008_54932_8.fastq
+Converted SN000008/SN000008_5279_1.ab1 to SN000008/SN000008_5279_1.fastq
+Converted SN000001/SN000001_5879_4.ab1 to SN000001/SN000001_5879_4.fastq
+Converted SN000001/SN000001_2134_9.ab1 to SN000001/SN000001_2134_9.fastq
+Converted SN000001/SN000001_8521_7.ab1 to SN000001/SN000001_8521_7.fastq
+Converted SN000009/SN000009_54892_4.ab1 to SN000009/SN000009_54892_4.fastq
+Converted SN000002/SN000002_9658_4.ab1 to SN000002/SN000002_9658_4.fastq
+Converted SN000002/SN000002_9652_6.ab1 to SN000002/SN000002_9652_6.fastq
+Converted SN000004/SN000004_7895_2.ab1 to SN000004/SN000004_7895_2.fastq
+Converted SN000004/SN000004_4856_7.ab1 to SN000004/SN000004_4856_7.fastq
+Converted SN000004/SN000004_9762_9.ab1 to SN000004/SN000004_9762_9.fastq
+Converted SN000004/SN000004_7421_7.ab1 to SN000004/SN000004_7421_7.fastq
+Converted SN000006/SN000006_6985_3.ab1 to SN000006/SN000006_6985_3.fastq
+Converted SN000006/SN000006_89654_1.ab1 to SN000006/SN000006_89654_1.fastq
+Converted SN000003/SN000003_3257_74.ab1 to SN000003/SN000003_3257_74.fastq
+Converted SN000003/SN000003_5789_4.ab1 to SN000003/SN000003_5789_4.fastq
+Converted SN000003/SN000003_5617_2.ab1 to SN000003/SN000003_5617_2.fastq
+Converted SN000005/SN000005_7896_4.ab1 to SN000005/SN000005_7896_4.fastq
+Converted SN000005/SN000005_8625_7.ab1 to SN000005/SN000005_8625_7.fastq
+Converted SN000005/SN000005_8627_8.ab1 to SN000005/SN000005_8627_8.fastq
+Converted SN000007/SN000007_5984_5.ab1 to SN000007/SN000007_5984_5.fastq
+Converted SN000007/SN000007_7925_5.ab1 to SN000007/SN000007_7925_5.fastq
+Error converting SN000007/SN000007_7864_25.ab1 to SN000007/SN000007_7864_25.fastq
+Converted SN000010/SN000010_1234_5.ab1 to SN000010/SN000010_1234_5.fastq
+Converted SN000010/SN000010_6587_5.ab1 to SN000010/SN000010_6587_5.fastq
+Converted SN000010/SN000010_8657_7.ab1 to SN000010/SN000010_8657_7.fastq
+
+
+Summary of conversion: 
+Number of files converted: 26
+Number of errors during conversion: 1
+
+----------------------
+
+Number of files to be processed:26 and paths to files:
+
+SN000008/SN000008_58627_7.fastq
+SN000008/SN000008_54932_8.fastq
+SN000008/SN000008_5279_1.fastq
+SN000001/SN000001_2134_9.fastq
+SN000001/SN000001_8521_7.fastq
+SN000001/SN000001_5879_4.fastq
+SN000009/SN000009_54892_4.fastq
+SN000002/SN000002_9652_6.fastq
+SN000002/SN000002_9658_4.fastq
+SN000004/SN000004_7421_7.fastq
+SN000004/SN000004_7895_2.fastq
+SN000004/SN000004_9762_9.fastq
+SN000004/SN000004_4856_7.fastq
+SN000006/SN000006_6985_3.fastq
+SN000006/SN000006_89654_1.fastq
+SN000003/SN000003_5789_4.fastq
+SN000003/SN000003_3257_74.fastq
+SN000003/SN000003_5617_2.fastq
+SN000005/SN000005_8625_7.fastq
+SN000005/SN000005_8627_8.fastq
+SN000005/SN000005_7896_4.fastq
+SN000007/SN000007_7925_5.fastq
+SN000007/SN000007_5984_5.fastq
+SN000010/SN000010_1234_5.fastq
+SN000010/SN000010_6587_5.fastq
+SN000010/SN000010_8657_7.fastq
+
+----------------------
+
+Cut fastq files:
+Target string used to cut 5' end: TG[AG]AGG
+Target string used to cut 3' end: GCCCGG
+
+Fastq SN000008/SN000008_58627_7.fastq cut, final size: 459
+Fastq SN000008/SN000008_54932_8.fastq cut, final size: 458
+Sequence of SN000008/SN000008_5279_1.fastq could not be cut
+Sequence of SN000001/SN000001_2134_9.fastq could not be cut
+Fastq SN000001/SN000001_8521_7.fastq cut, final size: 459
+Sequence of SN000001/SN000001_5879_4.fastq could not be cut
+Sequence of SN000009/SN000009_54892_4.fastq could not be cut
+Fastq SN000002/SN000002_9652_6.fastq cut, final size: 459
+Fastq SN000002/SN000002_9658_4.fastq cut, final size: 458
+Fastq SN000004/SN000004_7421_7.fastq cut, final size: 459
+Sequence of SN000004/SN000004_7895_2.fastq could not be cut
+Fastq SN000004/SN000004_9762_9.fastq cut, final size: 458
+Sequence of SN000004/SN000004_4856_7.fastq could not be cut
+Fastq SN000006/SN000006_6985_3.fastq cut, final size: 459
+Fastq SN000006/SN000006_89654_1.fastq cut, final size: 458
+Sequence of SN000003/SN000003_5789_4.fastq could not be cut
+Fastq SN000003/SN000003_3257_74.fastq cut, final size: 459
+Sequence of SN000003/SN000003_5617_2.fastq could not be cut
+Fastq SN000005/SN000005_8625_7.fastq cut, final size: 459
+Fastq SN000005/SN000005_8627_8.fastq cut, final size: 459
+Sequence of SN000005/SN000005_7896_4.fastq could not be cut
+Fastq SN000007/SN000007_7925_5.fastq cut, final size: 458
+Fastq SN000007/SN000007_5984_5.fastq cut, final size: 459
+Fastq SN000010/SN000010_1234_5.fastq cut, final size: 458
+Sequence of SN000010/SN000010_6587_5.fastq could not be cut
+Sequence of SN000010/SN000010_8657_7.fastq could not be cut
+
+Result of initial cutting:
+15 files were cut
+11 files were not cut
+
+-----------
+
+Checking if uncut files are reverse sequences and in that case, cutting them:
+
+Sequence of file SN000008/SN000008_5279_1.fastq reversed
+Sequence of file SN000001/SN000001_2134_9.fastq reversed
+Sequence SN000001/SN000001_5879_4.fastq not complete
+Sequence of file SN000009/SN000009_54892_4.fastq reversed
+Sequence of file SN000004/SN000004_7895_2.fastq reversed
+Sequence SN000004/SN000004_4856_7.fastq not complete
+Sequence of file SN000003/SN000003_5789_4.fastq reversed
+Sequence of file SN000003/SN000003_5617_2.fastq reversed
+Sequence of file SN000005/SN000005_7896_4.fastq reversed
+Sequence of file SN000010/SN000010_6587_5.fastq reversed
+Sequence of file SN000010/SN000010_8657_7.fastq reversed
+
+Files reversed: 9
+Files not reversed: 2
+
+Trying to cut reversed sequences:
+
+Sequence of SN000008/SN000008_5279_1.fastq could not be cut
+Sequence of SN000001/SN000001_2134_9.fastq could not be cut
+Fastq SN000009/SN000009_54892_4.fastq cut, final size: 460
+Fastq SN000004/SN000004_7895_2.fastq cut, final size: 460
+Fastq SN000003/SN000003_5789_4.fastq cut, final size: 326
+Fastq SN000003/SN000003_5617_2.fastq cut, final size: 460
+Fastq SN000005/SN000005_7896_4.fastq cut, final size: 460
+Fastq SN000010/SN000010_6587_5.fastq cut, final size: 460
+Fastq SN000010/SN000010_8657_7.fastq cut, final size: 460
+
+Sequence length of files that couldn't be cut:
+
+SN000001/SN000001_5879_4.fastq : 977
+SN000004/SN000004_4856_7.fastq : 660
+SN000008/SN000008_5279_1.fastq : 900
+SN000001/SN000001_2134_9.fastq : 860
+
+Quality analysis:
+
+Number of files to be processed:22 and paths to files:
+
+SN000008/SN000008_54932_8.qual
+SN000008/SN000008_58627_7.qual
+SN000001/SN000001_8521_7.qual
+SN000009/SN000009_54892_4.qual
+SN000002/SN000002_9658_4.qual
+SN000002/SN000002_9652_6.qual
+SN000004/SN000004_9762_9.qual
+SN000004/SN000004_7895_2.qual
+SN000004/SN000004_7421_7.qual
+SN000006/SN000006_89654_1.qual
+SN000006/SN000006_6985_3.qual
+SN000003/SN000003_5617_2.qual
+SN000003/SN000003_5789_4.qual
+SN000003/SN000003_3257_74.qual
+SN000005/SN000005_8627_8.qual
+SN000005/SN000005_8625_7.qual
+SN000005/SN000005_7896_4.qual
+SN000007/SN000007_7925_5.qual
+SN000007/SN000007_5984_5.qual
+SN000010/SN000010_8657_7.qual
+SN000010/SN000010_1234_5.qual
+SN000010/SN000010_6587_5.qual
+
+Quality analysis:
+
+SN000008/SN000008_54932_8.qual	51
+SN000008/SN000008_58627_7.fastq analysed
+SN000008/SN000008_58627_7.qual	51
+SN000008/SN000008_54932_8.fastq analysed
+SN000001/SN000001_8521_7.qual	51
+SN000001/SN000001_8521_7.fastq analysed
+Quality mean value of SN000009/SN000009_54892_4.qual (49) lower than threshold 50
+SN000002/SN000002_9658_4.qual	51
+SN000002/SN000002_9658_4.fastq analysed
+SN000002/SN000002_9652_6.qual	51
+SN000004/SN000004_7421_7.fastq analysed
+SN000004/SN000004_9762_9.qual	51
+SN000004/SN000004_9762_9.fastq analysed
+Quality mean value of SN000004/SN000004_7895_2.qual (48) lower than threshold 50
+SN000004/SN000004_7421_7.qual	51
+SN000006/SN000006_89654_1.fastq analysed
+SN000006/SN000006_89654_1.qual	51
+SN000003/SN000003_3257_74.fastq analysed
+SN000006/SN000006_6985_3.qual	51
+SN000005/SN000005_8625_7.fastq analysed
+Quality mean value of SN000003/SN000003_5617_2.qual (48) lower than threshold 50
+Quality mean value of SN000003/SN000003_5789_4.qual (49) lower than threshold 50
+SN000003/SN000003_3257_74.qual	51
+SN000007/SN000007_5984_5.fastq analysed
+SN000005/SN000005_8627_8.qual	51
+SN000010/SN000010_1234_5.fastq analysed
+SN000005/SN000005_8625_7.qual	51
+SN000009/SN000009_54892_4.fastq analysed
+Quality mean value of SN000005/SN000005_7896_4.qual (48) lower than threshold 50
+SN000007/SN000007_7925_5.qual	51
+SN000003/SN000003_5789_4.fastq analysed
+SN000007/SN000007_5984_5.qual	51
+SN000003/SN000003_5617_2.fastq analysed
+Quality mean value of SN000010/SN000010_8657_7.qual (49) lower than threshold 50
+SN000010/SN000010_1234_5.qual	51
+SN000010/SN000010_6587_5.fastq analysed
+Quality mean value of SN000010/SN000010_6587_5.qual (48) lower than threshold 50
+
+
+Best fastq from each sample:
+
+SN000001/SN000001_8521_7.qual	51
+SN000002/SN000002_9658_4.qual	51
+SN000003/SN000003_3257_74.qual	51
+SN000004/SN000004_9762_9.qual	51
+SN000005/SN000005_8627_8.qual	51
+SN000006/SN000006_89654_1.qual	51
+SN000007/SN000007_7925_5.qual	51
+SN000008/SN000008_54932_8.qual	51
+SN000010/SN000010_1234_5.qual	51
+
+
+Fasta sequences from these fastq joined in final.fasta
+
+Finished!
