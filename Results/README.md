@@ -1,4 +1,4 @@
-# Data information
+# Results information
 
 *Project for the course Practical Bioinformatics for Biologists 2019*
 
@@ -33,7 +33,7 @@ use as an example for the program.
   * bestqs.txt: Fastq with best mean quality per samples
 
 * Inside each samples folder several files were created:
-  * \*.fastq: extracted Fastq from the ab1 file
+  * \*.fastq: Extracted Fastq from the ab1 file
   * \*.qual: Quality data with Phred values of each Fastq
   * \*.html: Summary of the quality analysis done by FASTQC
   * \*.zip: Zip containing more information about the FASTQC analysis
