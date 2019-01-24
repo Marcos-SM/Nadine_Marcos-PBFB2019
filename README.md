@@ -33,7 +33,7 @@ different number of characters, change the 8 in 'uniq -w 8' in the shell.sh scri
   * 3' end: GCCCGG
 
 * Although it is possible to work directly with FASTQ files **we do not recommend** this if the files are your original data.
-In case you want to do this we advise you to modify the script and make a link to your original files with which you can work with.
+In case you want to do this we advise you to modify the script and make a link to your original files with which you can work.
 
 
 ## Explanation of the script
