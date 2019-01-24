@@ -73,15 +73,16 @@ print "\n\n----------------------\n\n"
 
 
 #This modifies the file name of all the ab1 files to add the name of the parent directory (sample name):
-if Names is 'Y':
-    for root, dirs, files in os.walk("./"):
-        if not files:
-            continue
-        prefix = os.path.basename(root)
-        for f in files:
-                path = os.path.relpath(os.path.join(root, f), "./")
-                if path.endswith(".ab1"): #This specifies the extension of the files to be changed
-                    os.rename(os.path.join(root, f), os.path.join(root, "{}_{}".format(prefix, f)))
+if Abifiles is 'Y':
+    if Names is 'Y':
+        for root, dirs, files in os.walk("./"):
+            if not files:
+                continue
+            prefix = os.path.basename(root)
+            for f in files:
+                    path = os.path.relpath(os.path.join(root, f), "./")
+                    if path.endswith(".ab1"): #This specifies the extension of the files to be changed
+                        os.rename(os.path.join(root, f), os.path.join(root, "{}_{}".format(prefix, f)))
 
 #Function that creates a list with the path to the files with the specified extension and counts the number of files
 def pathtofiles(Allfiles, arg1):
