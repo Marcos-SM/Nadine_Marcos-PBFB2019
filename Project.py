@@ -32,7 +32,7 @@ log.write("Date and time the script was run: %s\n" % now) #Date and time the scr
 Abifiles = raw_input("Do you want to extract fastq files from ab1 files \n(if not the script will work with existing fastq files)?: (Y/N) ")
 log.write("Do you want to extract fastq files from ab1 files \n(if not the script will work with existing fastq files)?: %s\n" % Abifiles)
 if Abifiles is 'Y':
-    Names = raw_input('\033[1m' + '\033[91m' + "Do you want to add the parent directory to the file name? \n[Warning: Do this only once]: (Y/N)"  + '\x1b[0m')
+    Names = raw_input('\033[1m' + '\033[91m' + "Do you want to add the parent directory to the file name? \n[Warning: Do this only once]: (Y/N) "  + '\x1b[0m')
     log.write("Do you want to add the parent directory to the file name?: %s\n" % Names)
 elif Abifiles is 'y': #Only shows this at the prompt when the user types a lowercase 'y'
     print "Answers should be in uppercase"
