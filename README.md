@@ -21,8 +21,8 @@ the data).
 
 * Biopython v. 1.73 and FastQC need to be downloaded before running this script.
 
-* Our sample names have 8 characters. If your sample name has a different number of characters, change the 8 in
-'uniq -w 8' in the shell.sh script to the number of characters your sample has.
+* Our sample names have 8 characters (the names of the folders where the electropherograms are).If your sample name has a
+different number of characters, change the 8 in 'uniq -w 8' in the shell.sh script to the number of characters your sample has.
 
 * *Clean.sh* will delete all the files that are created by the program (to be run from the folder where the data is).
 **Do not use this script if there are more files in your folders than only the ab1 files.**
