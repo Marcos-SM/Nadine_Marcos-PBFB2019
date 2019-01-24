@@ -25,7 +25,7 @@ the data).
 'uniq -w 8' in the shell.sh script to the number of characters your sample has.
 
 * Clean.sh will delete all the files that are created by the program (to be run from the folder where the data is).
-**Do not use this script if there are more files in your folders than only the ab1 files**
+**Do not use this script if there are more files in your folders than only the ab1 files.**
 
 ## Explanation of the script
 
