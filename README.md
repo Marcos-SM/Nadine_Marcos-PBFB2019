@@ -32,6 +32,10 @@ the data).
   * 5' end: TGRAGG
   * 3' end: GCCCGG
 
+* Although it is possible to work directly with FASTQ files **we do not recommend** this if the files are your original data.
+In case you want to do this we advise you to modify the script and make a link to your original files with which you can work with.
+
+
 ## Explanation of the script
 
 The script provided is a Python (v. 2.7.15rc1) script that extracts information from ab1 files and converts it to fastq
