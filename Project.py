@@ -348,6 +348,6 @@ if Qualanalysis is 'Y':
                 final.write(header + lines[1]) #Writes the header and the sequence in the fasta file (on different lines)
             filec.close()
         print "\nBest sequence from each sample joined in one fasta file"
-        log.write("\nFasta sequences of from these fastq joined in final.fasta\n\n")
+        log.write("\nFasta sequences from these fastq joined in final.fasta\n\n")
 log.write("Finished!")
 log.close()
